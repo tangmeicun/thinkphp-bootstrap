@@ -1,0 +1,43 @@
+
+<!--内容部分start-->
+<div class="content">
+
+    <div class="header">
+        <h1 class="page-title">系统信息</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('index/index')}">首页</a> <span class="divider">/</span></li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="row-fluid">
+                <div class="block span6">
+                    <a class="block-heading" data-toggle="collapse">系统信息</a>
+                    <div id="tablewidget" class="block-body collapse in">
+                        <table class="table">
+                            <tbody>
+                            <volist name="info" id="vo">
+                                <tr>
+                                    <td>{$key}</td>
+                                    <td>{$vo}</td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <include file="Common:author" />
+
+        </div>
+    </div>
+</div>
+<!--内容部分end-->
+
+
+
+
+

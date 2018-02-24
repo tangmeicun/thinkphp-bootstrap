@@ -1,0 +1,47 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">编辑菜单</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('index/index')}">首页</a> <span class="divider">/</span></li>
+        <li class="active">编辑菜单</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="well">
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane active in" id="home">
+                        <form id="tab" method="post">
+                            <input type="hidden" name="menuid" value="{$data.menuinfo.menuid}" class="input-xlarge">
+                            <label>菜单名称</label>
+                            <input type="text" name="name" value="{$data.menuinfo.name}" class="input-xlarge">
+                            <label>父级菜单</label>
+                            <select name="parentid" id="parentid" class="input-xlarge">
+                                <option value="0">顶级菜单</option>
+                                <volist name="data.menuList" id="vo">
+                                    <option value="{$vo.menuid}" <if condition="$data['menuinfo']['parentid'] eq $vo['menuid']">selected="selected"</if>>{$vo.full_name}</option>
+                                </volist>
+                            </select>
+                            <label>地址</label>
+                            <input type="text" name="url" value="{$data.menuinfo.url}" class="input-xlarge"> (eq:user-list表示:user/list)
+                            <label>图标</label>
+                            <input type="text" name="icons" value="{$data.menuinfo.icons}" class="input-xlarge">
+                            <label></label>
+                            <button type="submit" class="btn btn-primary"><i class="icon-save"></i>  提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <include file="Common:author" />
+
+        </div>
+    </div>
+</div>
+
+
+
+
+

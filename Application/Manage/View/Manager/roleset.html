@@ -1,0 +1,36 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">设置权限</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('index/index')}">首页</a> <span class="divider">/</span></li>
+        <li class="active">设置权限</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="well">
+                <form role="form" action="" method="post">
+                    <label>设置 {$rolename} 的权限：</label>
+                    <input type="hidden" name="roleid" value="{$data.roleid}"/>
+                    <select multiple="" class="form-control" name="menuid[]" style="height:500px; width: 300px;">
+                        <volist name="data.menulist" id="v">
+                            <option value="{$v.menuid}" <if condition="in_array($v['menuid'],$data['role_menu_list'])">selected</if>>{$v.full_name}</option>
+                        </volist>
+                    </select>
+                    <label></label>
+                    <button type="submit" class="btn btn-primary">提交</button>
+                    {$error}
+                </form>
+            </div>
+
+            <include file="Common:author" />
+        </div>
+    </div>
+</div>
+
+
+
+
+

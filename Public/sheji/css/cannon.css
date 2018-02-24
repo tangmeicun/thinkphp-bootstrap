@@ -1,0 +1,44 @@
+.wrap{width: 100%; height: 13.34rem; background: url(../image/bg.jpg) no-repeat; background-size: 100%;}
+.con1{width: 7.5rem; height: 4.09rem; background: url(../image/bj1.png) no-repeat; background-size: 100%; position: relative;}
+.bj3{position: absolute; width: 1.63rem; height: 2.32rem; background: url(../image/bj3.png) no-repeat; background-size: 100%; right: 0; bottom: 0.5rem; z-index: 1;}
+.con1_nei{width: 7.5rem; height: 4.09rem; background: url(../image/bj2.png) no-repeat; background-size: 100%; z-index: 3; position: relative;}
+
+.man4{position: absolute; width: 3.2rem; height: 1.97rem; background: url(../image/whitepig_idle.gif) no-repeat; background-size: 100%; top: 1.5rem; left: -0.7rem; z-index: 5;}
+.man1{position: absolute; width: 3.2rem; height: 1.97rem; background: url(../image/whitepig_fire.gif) no-repeat; background-size: 100%; top: 1.5rem; left: -0.7rem; z-index: 5;}
+.man2{position: absolute; width: 3.2rem; height: 1.97rem; background: url(../image/whitepig_cheer.gif) no-repeat; background-size: 100%; top: 1.5rem; left: -0.5rem; z-index: 5;}
+.man3{position: absolute; width: 3.2rem; height: 1.97rem; background: url(../image/whitepig_fail.gif) no-repeat; background-size: 100%; top: 1.5rem; left: -0.5rem; z-index: 5;}
+
+.cannon{position: absolute; width: 2.28rem; height: 2.15rem; background: url(../image/cannon.png) no-repeat; background-size: 100%; top: 1.3rem; left: 0.55rem; z-index: 4;}
+.cannon1{position: absolute; width: 2.28rem; height: 2.15rem; background: url(../image/cannon_fire01.gif) no-repeat; background-size: 100%; top: 1.3rem; left: 0.55rem; z-index: 4;}
+.cannon2{position: absolute; width: 2.28rem; height: 2.15rem; background: url(../image/cannon_fire02.gif) no-repeat; background-size: 100%; top: 1.2rem; left: 0.85rem; z-index: 4;}
+.cannon3{position: absolute; width: 2.28rem; height: 2.15rem; background: url(../image/cannon_fire02_fail.gif) no-repeat; background-size: 100%; top: 1.3rem; left: 0.55rem; z-index: 4;}
+
+.donkey11{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey.png) no-repeat; background-size: 100%; top: 1.2rem; right: 1rem; z-index: 2;}
+.donkey12{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey.png) no-repeat; background-size: 100%; top: 1.5rem; right: 0.2rem; z-index: 2;}
+.donkey1{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey_idle.gif) no-repeat; background-size: 100%; top: 1.5rem; right: 0.2rem; z-index: 2;}
+.donkey13{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey_idle.gif) no-repeat; background-size: 100%; top: 1.2rem; right: 1rem; z-index: 2;}
+.donkey2{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey_miss.gif) no-repeat; background-size: 100%; top: 1.5rem; right: 0.2rem; z-index: 2;}
+.donkey24{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/greendonkey_miss.gif) no-repeat; background-size: 100%; top: 1.2rem; right: 1rem; z-index: 2;}
+
+.shell{width: 0.31rem; height: 0.32rem; background: url(../image/shell.png) no-repeat; background-size: 100%; left: 1.7rem; top: 2rem; position: absolute; z-index: 3;}
+.shell_fail{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/shell_fail.gif) no-repeat; background-size: 100%; top: 1.7rem; left: 2.2rem; z-index: 3;}
+.shell_fail1{position: absolute; width: 1.24rem; height: 1.57rem; background: url(../image/shell_fail.png) no-repeat; background-size: 100%; top: 1.7rem; left: 2.2rem; z-index: 3;}
+.bz{width: 6.38rem; height: 5.54rem; background: url(../image/bz.gif) no-repeat; background-size: 100%; left: 2.5rem; top: -1rem; position: absolute; z-index: 5; display: none;}
+.con2{width: 100%; height: 0.48rem; background: url(../image/bowen_02.png) no-repeat; background-size: 100%;}
+.con3{height: 0.8rem; margin-top: 0.2rem;}
+.con3 span{float: left; width: 2.76rem; height: 0.8rem; line-height: 0.75rem; text-align: center; font-size: 0.3rem; font-weight: bold; color: #fff; margin-left: 0.7rem; letter-spacing: 2px;}
+.con3 .btn1{background: url(../image/aniu_03.png) no-repeat; background-size: 100%;}
+.con3 .btn10{background: url(../image/aniu_05.png) no-repeat; background-size: 100%;}
+.con4{width: 7.23rem; height: 7.24rem; background: url(../image/kuang_03.png) no-repeat; background-size: 100%; margin: 0 auto; margin-top: 0.2rem; padding-top: 1rem; padding-left:0.5rem; padding-right: 0.5rem; box-sizing: border-box; position: relative; }
+.con4 ul{height: 5.5rem; overflow-y: scroll;}
+.con4 ul li{line-height: 0.4rem; font-size: 0.28rem; margin-bottom: 0.2rem;}
+.con4 span{position: absolute; font-size: 0.32rem; left: 3rem; top: 0.3rem; color: #fff;  font-weight: bold; letter-spacing: 2px;}
+.bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.6; z-index: 99; display: none;}
+.dialog{position: absolute; width: 5rem; background: #ffe292; z-index: 100; left: 1.25rem; top: 5rem; border-radius: 0.2rem; padding: 0.4rem; padding-top: 0.5rem; box-sizing: border-box; display: none;}
+.dialog p{font-size: 0.28rem; line-height: 0.4rem; text-align: center; margin-bottom: 0.5rem;}
+.dialog span{ width: 1.6rem; height: 0.6rem; line-height: 0.6rem; text-align: center; font-size: 0.28rem;  color: #fff;  background: #5dbcdc; background-size: 100%; border-radius: 0.2rem;}
+.dialog span.sure{float: left;}
+.dialog span.cancel{float: right;}
+.rule h3{font-size: 0.3rem; text-align: center; margin-bottom: 0.2rem;}
+.rule p{line-height: 0.4rem; margin-bottom: 0.2rem; text-align: left;}
+.dialog span.close{float: inherit; margin: 0 auto; margin-top: 0.2rem; display: block;}

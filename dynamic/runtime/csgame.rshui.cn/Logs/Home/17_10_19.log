@@ -1,0 +1,1207 @@
+[ 2017-10-19T15:57:41+08:00 ] 192.168.2.189 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-10-19T16:03:06+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+ERR: 接口状态：502 URL地址：http://cs1api.jxh5.rshui.cn/HJTurnTable/rs/othergame/giveUserCodeNum, 参数:{"uid":"632332","getcodeNum":"5"}
+[ 2017-10-19T16:03:06+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508400186') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2017-10-19T16:09:17+08:00 ] 192.168.2.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-10-19T16:09:17+08:00 ] 192.168.2.189 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-10-19T16:09:21+08:00 ] 192.168.2.189 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-10-19T17:21:17+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-10-19T17:24:04+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-10-19T17:25:40+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-10-19T17:25:48+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'jixiangh5'@'localhost' (using password: YES)
+
+[ 2017-10-19T17:28:37+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-10-19T17:28:57+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+ERR: 接口状态：0 URL地址：http://cs1api.jxh5.rshui.cn/HJTurnTable/rs/othergame/checkusercode, 参数:{"uid":"632332","needcodeNum":"10"}
+[ 2017-10-19T17:28:57+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-10-19T17:29:51+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-10-19T17:30:08+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+ERR: 接口状态：0 URL地址：http://cs1api.jxh5.rshui.cn/HJTurnTable/rs/othergame/checkusercode, 参数:{"uid":"632332","needcodeNum":"10"}
+[ 2017-10-19T17:30:08+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-10-19T17:30:30+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+ERR: 接口状态：0 URL地址：http://cs1api.jxh5.rshui.cn/HJTurnTable/rs/othergame/checkusercode, 参数:{"uid":"632332","needcodeNum":"10"}
+[ 2017-10-19T17:30:30+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-10-19T17:30:34+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'jixiangh5'@'localhost' (using password: YES)
+
+[ 2017-10-19T17:31:21+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T17:31:22+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-10-19T17:31:22+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-10-19T17:31:22+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-10-19T17:31:22+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-10-19T17:31:22+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-10-19T17:31:28+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'jixiangh5'@'localhost' (using password: YES)
+
+[ 2017-10-19T17:32:11+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-10-19T17:32:11+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-10-19T17:32:11+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-10-19T17:32:12+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2017-10-19T17:32:12+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-10-19T17:32:12+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.206502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-10-19T17:32:18+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405537') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2017-10-19T17:33:19+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-10-19T17:33:26+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0004s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405605') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405606') [ RunTime:0.0004s ]
+
+[ 2017-10-19T17:33:35+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405614') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405615') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:33:45+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405625') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405625') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:33:52+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405632') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405632') [ RunTime:0.0002s ]
+
+[ 2017-10-19T17:33:59+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0007s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405639') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','2','打中2个人,获得奖励20积分','20','2','1508405639') [ RunTime:0.0004s ]
+
+[ 2017-10-19T17:34:09+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405648') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405649') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:34:16+08:00 ] 192.168.2.180 /sheji/ajax_get_rand10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射十枚炮弹需100积分','100','1','1508405655') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 166 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405655') [ RunTime:0.0003s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','4','打偏，炮弹没了，失去所有积分','0','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','4','打偏，炮弹没了，失去所有积分','0','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405655') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405655') [ RunTime:0.0002s ]
+
+[ 2017-10-19T17:34:25+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405664') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405665') [ RunTime:0.0004s ]
+
+[ 2017-10-19T17:34:31+08:00 ] 192.168.2.180 /sheji/ajax_get_rand10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射十枚炮弹需100积分','100','1','1508405670') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 166 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','4','打偏，炮弹没了，失去所有积分','0','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','4','打偏，炮弹没了，失去所有积分','0','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405670') [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','4','打偏，炮弹没了，失去所有积分','0','2','1508405670') [ RunTime:0.0002s ]
+
+[ 2017-10-19T17:37:48+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405867') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405868') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:37:57+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405876') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508405877') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:03+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405882') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405883') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:11+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405890') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405891') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:16+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0003s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405896') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2017-10-19T17:38:26+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405905') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405906') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:32+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405912') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405912') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:39+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405918') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405919') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:45+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405925') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405925') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:38:52+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508405931') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508405932') [ RunTime:0.0004s ]
+
+[ 2017-10-19T17:49:53+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-10-19T17:49:55+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2017-10-19T17:50:00+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508406599') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508406600') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:50:08+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508406607') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508406608') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:50:13+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0003s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508406613') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508406613') [ RunTime:0.0001s ]
+
+[ 2017-10-19T17:50:19+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0004s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508406619') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508406619') [ RunTime:0.0003s ]
+
+[ 2017-10-19T17:50:26+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508406626') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2017-10-19T17:59:55+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-10-19T18:00:01+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407201') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+
+[ 2017-10-19T18:00:15+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407215') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407215') [ RunTime:0.0004s ]
+
+[ 2017-10-19T18:00:22+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407221') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508407222') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:00:28+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407228') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407228') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:00:36+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407235') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508407236') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:03:53+08:00 ] 192.168.2.180 /sheji/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-10-19T18:03:56+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407435') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407436') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:04:05+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0003s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407445') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407445') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:04:11+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0004s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407451') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','2','打中2个人,获得奖励20积分','20','2','1508407451') [ RunTime:0.0002s ]
+
+[ 2017-10-19T18:04:18+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407458') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407458') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:04:24+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407464') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','3','炮弹掉地上，返还5积分','5','2','1508407464') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:04:31+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0005s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407471') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizeclassid`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','1','打中1个人,获得奖励15积分','15','2','1508407471') [ RunTime:0.0003s ]
+
+[ 2017-10-19T18:04:38+08:00 ] 192.168.2.180 /sheji/ajax_get_rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_record` [ RunTime:0.0006s ]
+SQL: INSERT INTO `rs_sheji_record` (`userid`,`username`,`prizename`,`prizenum`,`status`,`datetime`) VALUES ('632332','','发射一枚炮弹需10积分','10','1','1508407478') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rs_sheji_prize` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /deploy/wwwroot/v_gameone_com/Application/Home/Controller/ShejiController.class.php on line 83 and defined /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /deploy/wwwroot/v_gameone_com/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM `rs_sheji_prize` ORDER BY id asc  [ RunTime:0.0001s ]
+

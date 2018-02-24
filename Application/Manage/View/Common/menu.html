@@ -1,0 +1,14 @@
+<!--左侧导航start-->
+<div class="sidebar-nav">
+    <volist name="menutree" id="vo">
+        <a href="#{$vo.url}" class="nav-header collapsed" data-toggle="collapse"><i class="{$vo.icons}"></i>{$vo.name}</a>
+        <notempty  name="vo.sonlist">
+            <ul id="{$vo.url}" class="nav nav-list collapse <if condition="($vo['menuid'] eq $menu_now['parentid'])"> in </if>">
+                <volist name="vo.sonlist" id="vv">
+                    <li <if condition="($vv['menuid'] eq $menu_now['menuid'])">class="active"</if>><a href="{$vv.url|format_url}">{$vv.name}</a></li>
+                </volist>
+            </ul>
+        </notempty>
+    </volist>
+</div>
+<!--左侧导航end-->

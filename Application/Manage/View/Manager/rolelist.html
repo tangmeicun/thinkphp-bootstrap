@@ -1,0 +1,50 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">角色管理</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('index/index')}">首页</a> <span class="divider">/</span></li>
+        <li class="active">角色管理</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <div id="toolbar">
+                <a class="btn btn-primary" href="{:U('manager/roleadd')}" role="button"><i class="icon-plus"></i>新增角色</a>
+            </div>
+            <div class="well">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>角色名称</th>
+                        <th>说明</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="data.list" id="vo">
+                        <tr>
+                            <td>{$vo.roleid}</td>
+                            <td>{$vo.rolename}</td>
+                            <td>{$vo.description}</td>
+                            <td>
+                                <a href="{:U('manager/roleedit?roleid='.$vo['roleid'])}"><i class="icon-pencil"></i>编辑   |   </a>
+                                <a href="{:U('manager/roleset?roleid='.$vo['roleid'])}"><i class="icon-pencil"></i>权限设置   |   </a>
+                                <a href="{:U('manager/roledel?roleid='.$vo['roleid'])}" onclick="javascript:return confirm('您确定要删除吗？')"><i class="icon-remove"></i>删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                {$data.page}
+            </div>
+
+            <include file="Common:author" />
+        </div>
+    </div>
+</div>
