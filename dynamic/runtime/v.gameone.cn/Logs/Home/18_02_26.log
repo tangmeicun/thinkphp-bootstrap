@@ -1,0 +1,18 @@
+[ 2018-02-26T09:43:41+08:00 ] 192.168.2.52 /hp/device/InternalPages/Index?id=ConfigurationPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009064s ]
+ERR: 无法加载控制器:Hp
+
+[ 2018-02-26T09:59:18+08:00 ] 192.168.2.1 /hp/device/InternalPages/Index?id=ConfigurationPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: 无法加载控制器:Hp
+
